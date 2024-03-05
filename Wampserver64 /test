@@ -1,0 +1,50 @@
+zuesrt installiere ich WAMPSERVER64 auf meinem PC
+
+danach erstelle ich mit PHP Myadmin eine Datenbank (zeiterfassung) mit zwei Tabellen
+diese haben folgende Spalten 
+
+RDif.NR.: RDif.NR.:
+          Vornahme:
+          Nachnahme:
+
+Kommen und Gehen: Rdif.NR.:
+                  Vornahme:
+                  Nachnahme:
+                  Kommen:
+                  Gehen:
+                  Datum:
+
+um das schreiben und lesen zu testen benutze ich eine Datenbank mit dem Namen (test)
+
+CMD als Administrator ausführen
+
+mit cd\  ins c: verzeichnis wechseln
+mit cd wamp64 ins wamp64\ wechseln
+
+c:\wamp64> cd bin
+c:\wamp64\bin>cd mysql
+c:\wamp64\bin\mysql\cd mysql8.2.0
+c:\wamp64\bin\mysql\mysql8.2.0>cd bin
+
+c:\wamp64\bin\mysql\mysql8.2.0\bin>mysql.exe -u root
+Welcome to the MYSQL monitor. Commands end with ; or \g.
+Your MySql connection id is 473
+Server version: 8.2.0 MySql Community Server - GPL........etc.
+
+mysql>Use text                              # nutzt text Datenbank
+Database changed
+
+mysql>DROP TABLE IF EXISTS writeread;       # wählt die Tabelle aus zum schreiben und lesen
+
+mysql>CREATE TABLE writeread (logdata datetime,field varchar(20),value biginit(20));   # legt die Überschriften der Tab an
+
+mysql> INSERT INTO writeread(logdata, field, value) VALUES ('2017-01-01 06:30::10','24','64');   # Daten einfügen
+
+mysql> SELECT * FROM writeread;         # gibt eine Tabelle zum testen aus erscheint darunter
+
+mysql>                                  # erscheint nach dem test
+
+
+
+jetzt haben wir das schreiben und lesen in deer datenbank getestet und wenn alles gut gegangen ist solte es funktionieren!!!
+
