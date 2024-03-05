@@ -1,6 +1,6 @@
 # Projekt RFID - Zeiterfassung mit Python
 
-* entwickeln einer Zeiterfassung mit Arduino und PYCARMS unter Benutzung der Arduino IDE eines Laptops (PC) und eine mit PHP-MYAdmkin erstellte MYSQL- DATENBANK
+* entwickeln einer Zeiterfassung mit Arduino und PYCARMS unter Benutzung der Arduino IDE eines Laptops (PC) und eine mit PHP-MYAdmin erstellte MYSQL- DATENBANK
 * für die Datenerfassung der Raucher beim täglichen Rauchen gehen zwischen den Pausen  ((K) NEIN SCHERZ )
 
 ## Projektumfeld
