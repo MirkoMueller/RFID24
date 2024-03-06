@@ -16,7 +16,10 @@
 * fertige Datenbank mit Einlese - Termimal  für RFID und CHIPKARTEN für die Raucher
 
 ## Anforderungen
-
+* funktionierender Arduino mit Sketch
+* Python_Code mit Verbindung zur Datenbank
+* Datenbank erreichbar über Python
+* Python / Arduino C++ / Datenbanken Kenntnisse
 
 ## Zeitliche Planung
 * 04.03.2024 - 15.03.2024
