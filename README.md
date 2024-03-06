@@ -19,3 +19,15 @@
 
 
 ## Zeitliche Planung
+* 04.03.2024 - 15.03.2024
+* 
+* 1 Woche:
+* konzept für die Umsetzung 
+* erarbeiten des Python_Code zur Übergabe in Datenbank
+* RFID Code für Arduino
+* Testen der Funktion
+* 
+* 2 Woche:
+* Ausarbeiten der Erweiterungen ( z.b.: Namen )
+* Grafische Darstellung (Konzept)
+* Umsetzung der grafischen Darstellung
